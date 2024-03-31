@@ -21,7 +21,26 @@ A continuació, se muestran los resultados de dicha implementación.
 ## Estructura de carpeta
 
 ```bash
-$?
+.
+├── assets
+|   └── test_bench.gif
+├── checkpoints/complex_yolov4
+|   └── complex_yolov4_mse_loss.pth
+├── complex-env
+├── example/dataset/kitti
+|   ├── testing
+|   |   ├── calib
+|   |   ├── image
+|   |   └── velodyne
+|   └── classes_names.txt
+├── src
+|   ├── config
+|   ├── data_process
+|   ├── models
+|   └── utils
+├── requirements.txt
+├── run_model.ipynb
+└── README
 ```
 
 ## Especificaciones de sistema
